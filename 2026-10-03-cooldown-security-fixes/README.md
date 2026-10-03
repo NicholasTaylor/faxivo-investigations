@@ -161,3 +161,7 @@ GITHUB_TOKEN_FILE=... python collect.py 5   # repository advisories for all repo
 python analyze.py
 ```
 (Stage 3, the unauthenticated random sample of repos, is kept as a check; stage 4 was never run.)
+
+## Article
+
+Submitted to Faxivo News on 2026-10-03 (submission `9783b58c-3c29-4bfa-a91e-dc3b1bd79a5c`). It was quarantined by the service on submission and is not published.
