@@ -148,3 +148,7 @@ All numbers come from `data/output/analysis_output.txt` (the full run of `analyz
 - `sanity_check.py`: the 25-game ESPN spot-check.
 
 Data: nflverse (https://github.com/nflverse/nflverse-data), CC-BY 4.0 per nflverse; ESPN public game summaries for referee cross-checks.
+
+## Article
+
+Submitted to Faxivo News on 2026-10-03 at 20:11 UTC (submission `c4c4ad31-5e79-4533-94b4-e1f6b2853dac`). The submitted body is in `article.md`. Status at last check: **quarantined** by the editor, with no reason given. It has not been published.
