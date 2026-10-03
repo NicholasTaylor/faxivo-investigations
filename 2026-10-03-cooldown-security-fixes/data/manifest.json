@@ -1,0 +1,65 @@
+{
+  "stage1_started_utc": "2026-10-03T19:00:01+00:00",
+  "bulk_files": [
+    {
+      "url": "https://osv-vulnerabilities.storage.googleapis.com/PyPI/all.zip",
+      "file": "data/raw/osv-PyPI.zip",
+      "bytes": 35420261,
+      "sha256": "721bf82abe39ea06a68c50628bf63ff649731a6bc65f6c0e0a8f6d8a30db0f8a",
+      "mtime_utc": "2026-10-03T18:57:56.103685+00:00"
+    },
+    {
+      "url": "https://osv-vulnerabilities.storage.googleapis.com/npm/all.zip",
+      "file": "data/raw/osv-npm.zip",
+      "bytes": 217394349,
+      "sha256": "a3e624ef9bac73b88eee9f745abb260d16ddbc531295d683f75ba59df85a83e8",
+      "mtime_utc": "2026-10-03T18:59:29.427480+00:00"
+    }
+  ],
+  "osv_counts": {
+    "PyPI": {
+      "records": 26040,
+      "ghsa": 6418,
+      "ghsa_withdrawn": 202
+    },
+    "npm": {
+      "records": 229810,
+      "ghsa": 7615,
+      "ghsa_withdrawn": 377
+    }
+  },
+  "fix_events": 18641,
+  "cve_aliases": 12080,
+  "stage1_finished_utc": "2026-10-03T19:00:21+00:00",
+  "endpoints": {
+    "osv": "https://osv-vulnerabilities.storage.googleapis.com/{PyPI,npm}/all.zip",
+    "pypi": "https://pypi.org/pypi/{package}/json  (releases[version][*].upload_time_iso_8601, earliest file)",
+    "npm": "https://registry.npmjs.org/{package}  (time[version])",
+    "github_repo_advisories": "https://api.github.com/repos/{owner}/{repo}/security-advisories?state=published&per_page=100 (published_at)"
+  },
+  "stage2_started_utc": "2026-10-03T19:00:29+00:00",
+  "registry": {
+    "PyPI": {
+      "packages": 1290
+    },
+    "npm": {
+      "packages": 2357
+    }
+  },
+  "stage2_finished_utc": "2026-10-03T21:30:23+00:00",
+  "stage5_started_utc": "2026-10-03T21:03:06+00:00",
+  "repo_full_population": 1420,
+  "stage5_finished_utc": "2026-10-03T21:30:04+00:00",
+  "notes": [
+    "Times are UTC. data/collect.log is the authoritative timeline.",
+    "Stage 1 (OSV parse) was rerun at 19:00, 19:11 (to add repo_advisory_repo) on the same downloaded zips; the zips' SHA-256 are in bulk_files.",
+    "Stage 2 registry fetch ran 19:00:29-19:29:27; stage2_finished_utc reflects a later no-op rerun used to refresh this manifest.",
+    "Stage 3 (unauthenticated random sample of 140 repos) fetched 56 repos 19:11 before being stopped when a token became available; kept as a check.",
+    "Stage 5 (all 1,420 repos, authenticated) first ran 20:10 and was stopped after 203 repos because of a pagination bug (page=N ignored by the cursor-paginated endpoint; no bad rows were written because affected repos never completed); restarted with Link-header pagination 21:03, finished 21:30."
+  ],
+  "stage3_sample": {
+    "seed": 20261003,
+    "size": 140,
+    "fetched": 56
+  }
+}

@@ -1,0 +1,113 @@
+2026-10-03T18:57:40+00:00 GET https://osv-vulnerabilities.storage.googleapis.com/PyPI/all.zip
+2026-10-03T18:57:56+00:00 GET https://osv-vulnerabilities.storage.googleapis.com/npm/all.zip
+2026-10-03T18:59:47+00:00 advisories.csv: 10501 fix events; counts {'PyPI': {'records': 26040, 'ghsa': 6418, 'ghsa_withdrawn': 202}, 'npm': {'records': 229810, 'ghsa': 7615, 'ghsa_withdrawn': 377}}
+2026-10-03T19:00:20+00:00 advisories.csv: 18641 fix events; counts {'PyPI': {'records': 26040, 'ghsa': 6418, 'ghsa_withdrawn': 202}, 'npm': {'records': 229810, 'ghsa': 7615, 'ghsa_withdrawn': 377}}
+2026-10-03T19:00:29+00:00 PyPI: 1290 packages, 0 done, 1290 to fetch
+2026-10-03T19:00:29+00:00 PyPI: 0/1290
+2026-10-03T19:01:38+00:00 PyPI: 200/1290
+2026-10-03T19:02:48+00:00 PyPI: 400/1290
+2026-10-03T19:03:55+00:00 PyPI: 600/1290
+2026-10-03T19:05:01+00:00 PyPI: 800/1290
+2026-10-03T19:06:09+00:00 PyPI: 1000/1290
+2026-10-03T19:07:16+00:00 PyPI: 1200/1290
+2026-10-03T19:07:46+00:00 npm: 2357 packages, 0 done, 2357 to fetch
+2026-10-03T19:07:46+00:00 npm: 0/2357
+2026-10-03T19:10:04+00:00 npm: 200/2357
+2026-10-03T19:11:23+00:00 advisories.csv: 18641 fix events; counts {'PyPI': {'records': 26040, 'ghsa': 6418, 'ghsa_withdrawn': 202}, 'npm': {'records': 229810, 'ghsa': 7615, 'ghsa_withdrawn': 377}}
+2026-10-03T19:11:41+00:00 stage3: population 1420 repos, sample 140, done 0
+2026-10-03T19:11:41+00:00 stage3 1/140 andrea9293/mcp-documentation-server: ok, 1 advisories
+2026-10-03T19:11:42+00:00 stage3 2/140 syntax-tree/mdast-util-to-hast: ok, 1 advisories
+2026-10-03T19:11:42+00:00 stage3 3/140 adaltas/node-csv: ok, 1 advisories
+2026-10-03T19:11:42+00:00 stage3 4/140 kozea/cairosvg: ok, 4 advisories
+2026-10-03T19:11:42+00:00 stage3 5/140 dapperduckling/keycloak-connector: ok, 2 advisories
+2026-10-03T19:11:43+00:00 stage3 6/140 pipeboard-co/meta-ads-mcp: ok, 12 advisories
+2026-10-03T19:11:43+00:00 stage3 7/140 ipython/ipython: ok, 2 advisories
+2026-10-03T19:11:43+00:00 stage3 8/140 pypa/pipenv: ok, 1 advisories
+2026-10-03T19:11:44+00:00 stage3 9/140 chimurai/http-proxy-middleware: ok, 2 advisories
+2026-10-03T19:11:44+00:00 stage3 10/140 threshold-network/tbtc-v2: ok, 3 advisories
+2026-10-03T19:11:44+00:00 stage3 11/140 medikoo/es5-ext: ok, 1 advisories
+2026-10-03T19:11:44+00:00 stage3 12/140 psf/requests: ok, 4 advisories
+2026-10-03T19:11:45+00:00 stage3 13/140 jetperch/pymonocypher: ok, 2 advisories
+2026-10-03T19:11:45+00:00 stage3 14/140 aurelio-labs/semantic-router: ok, 1 advisories
+2026-10-03T19:11:45+00:00 stage3 15/140 aiven-open/pghoard: ok, 3 advisories
+2026-10-03T19:11:46+00:00 stage3 16/140 weblateorg/weblate: ok, 45 advisories
+2026-10-03T19:11:46+00:00 stage3 17/140 openzeppelin/openzeppelin-confidential-contracts: ok, 2 advisories
+2026-10-03T19:11:46+00:00 stage3 18/140 masci/banks: ok, 6 advisories
+2026-10-03T19:11:47+00:00 stage3 19/140 collerek/ormar: ok, 2 advisories
+2026-10-03T19:11:47+00:00 stage3 20/140 ubertidavide/fastbots: http_404, 0 advisories
+2026-10-03T19:11:47+00:00 stage3 21/140 confetti/yayson: ok, 1 advisories
+2026-10-03T19:11:47+00:00 stage3 22/140 thomaspoignant/scim-patch: ok, 3 advisories
+2026-10-03T19:11:48+00:00 stage3 23/140 prefecthq/fastmcp: ok, 8 advisories
+2026-10-03T19:11:48+00:00 stage3 24/140 avwo/whistle: ok, 1 advisories
+2026-10-03T19:11:48+00:00 stage3 25/140 workos/authkit-nextjs: ok, 4 advisories
+2026-10-03T19:11:49+00:00 stage3 26/140 flytohub/flyto-core: ok, 45 advisories
+2026-10-03T19:11:49+00:00 stage3 27/140 samanhappy/mcphub: ok, 24 advisories
+2026-10-03T19:11:49+00:00 stage3 28/140 pdfminer/pdfminer.six: ok, 2 advisories
+2026-10-03T19:11:50+00:00 stage3 29/140 darkreader/darkreader: ok, 2 advisories
+2026-10-03T19:11:50+00:00 stage3 30/140 frouriojs/frourio-express: ok, 1 advisories
+2026-10-03T19:11:50+00:00 stage3 31/140 joaonuno/flat-to-nested-js: ok, 1 advisories
+2026-10-03T19:11:50+00:00 stage3 32/140 krateng/maloja: ok, 3 advisories
+2026-10-03T19:11:51+00:00 stage3 33/140 uuidjs/uuid: ok, 1 advisories
+2026-10-03T19:11:51+00:00 stage3 34/140 kittycad/modeling-app: ok, 2 advisories
+2026-10-03T19:11:51+00:00 stage3 35/140 apeleghq/ts-asn1-der: ok, 1 advisories
+2026-10-03T19:11:52+00:00 stage3 36/140 h3js/h3: ok, 11 advisories
+2026-10-03T19:11:52+00:00 stage3 37/140 elijahharry/hoolock: ok, 0 advisories
+2026-10-03T19:11:52+00:00 stage3 38/140 postcss/postcss: ok, 4 advisories
+2026-10-03T19:11:52+00:00 stage3 39/140 zmievsa/cadwyn: ok, 1 advisories
+2026-10-03T19:11:52+00:00 stage3 40/140 apollographql/federation: ok, 6 advisories
+2026-10-03T19:11:53+00:00 stage3 41/140 jupyterhub/jupyter-server-proxy: ok, 3 advisories
+2026-10-03T19:11:53+00:00 stage3 42/140 nuxt/icon: ok, 1 advisories
+2026-10-03T19:11:53+00:00 stage3 43/140 locize/i18next-locize-backend: ok, 1 advisories
+2026-10-03T19:11:54+00:00 stage3 44/140 ankitects/anki: ok, 7 advisories
+2026-10-03T19:11:54+00:00 stage3 45/140 equinor/resdata: ok, 1 advisories
+2026-10-03T19:11:54+00:00 stage3 46/140 borewit/music-metadata: ok, 8 advisories
+2026-10-03T19:11:54+00:00 stage3 47/140 xorbitsai/inference: ok, 1 advisories
+2026-10-03T19:11:55+00:00 stage3 48/140 justmoon/node-bignum: ok, 1 advisories
+2026-10-03T19:11:55+00:00 stage3 49/140 solidjs/solid: ok, 1 advisories
+2026-10-03T19:11:55+00:00 stage3 50/140 isaacs/minimatch: ok, 3 advisories
+2026-10-03T19:11:55+00:00 stage3 51/140 jihong88/suneditor: ok, 2 advisories
+2026-10-03T19:11:56+00:00 stage3 52/140 octokit/webhooks.js: ok, 1 advisories
+2026-10-03T19:11:56+00:00 stage3 53/140 fastify/middie: ok, 7 advisories
+2026-10-03T19:11:56+00:00 stage3 54/140 comfy-org/comfyui-manager: ok, 2 advisories
+2026-10-03T19:11:57+00:00 stage3 55/140 pyasn1/pyasn1: ok, 5 advisories
+2026-10-03T19:11:57+00:00 stage3 56/140 jugmac00/flask-reuploaded: ok, 2 advisories
+2026-10-03T19:11:57+00:00 rate limit reached; sleeping 3588s
+2026-10-03T19:11:58+00:00 npm: 400/2357
+2026-10-03T19:13:53+00:00 npm: 600/2357
+2026-10-03T19:15:59+00:00 npm: 800/2357
+2026-10-03T19:17:20+00:00 npm: 1000/2357
+2026-10-03T19:18:43+00:00 npm: 1200/2357
+2026-10-03T19:20:06+00:00 npm: 1400/2357
+2026-10-03T19:21:24+00:00 npm: 1600/2357
+2026-10-03T19:22:34+00:00 npm novu/api: HTTPError('405 Client Error: Method Not Allowed for url: https://registry.npmjs.org/novu%2Fapi'); retry in 10s
+2026-10-03T19:22:44+00:00 npm novu/api: HTTPError('405 Client Error: Method Not Allowed for url: https://registry.npmjs.org/novu%2Fapi'); retry in 20s
+2026-10-03T19:23:04+00:00 npm novu/api: HTTPError('405 Client Error: Method Not Allowed for url: https://registry.npmjs.org/novu%2Fapi'); retry in 30s
+2026-10-03T19:23:35+00:00 npm novu/api: HTTPError('405 Client Error: Method Not Allowed for url: https://registry.npmjs.org/novu%2Fapi'); retry in 40s
+2026-10-03T19:24:15+00:00 npm novu/api: HTTPError('405 Client Error: Method Not Allowed for url: https://registry.npmjs.org/novu%2Fapi'); retry in 50s
+2026-10-03T19:25:18+00:00 npm: 1800/2357
+2026-10-03T19:26:53+00:00 npm: 2000/2357
+2026-10-03T19:28:18+00:00 npm: 2200/2357
+2026-10-03T19:29:27+00:00 stage2 done
+2026-10-03T20:10:34+00:00 stage5: full population 1420 repos, done 0
+2026-10-03T20:10:35+00:00 stage5 0/1420 9001/copyparty: ok, 16 advisories
+2026-10-03T20:11:36+00:00 stage5 100/1420 astropy/astropy: ok, 2 advisories
+2026-10-03T20:12:40+00:00 stage5 200/1420 calebogden/pickem-oss: ok, 1 advisories
+2026-10-03T20:59:02+00:00 stage5 near rate limit; sleeping 1099s
+2026-10-03T21:03:06+00:00 stage5: full population 1420 repos, done 203
+2026-10-03T21:03:07+00:00 stage5 near rate limit; sleeping 854s
+2026-10-03T21:18:26+00:00 stage5 300/1420 datadog/import-in-the-middle: ok, 1 advisories
+2026-10-03T21:19:27+00:00 stage5 400/1420 ethereum/eth-abi: ok, 2 advisories
+2026-10-03T21:20:30+00:00 stage5 500/1420 google-github-actions/run-gemini-cli: ok, 1 advisories
+2026-10-03T21:21:32+00:00 stage5 600/1420 j4k0xb/webcrack: ok, 1 advisories
+2026-10-03T21:22:33+00:00 stage5 700/1420 kyndryl-open-source/hashi-vault-js: ok, 3 advisories
+2026-10-03T21:23:35+00:00 stage5 800/1420 mervinpraison/praisonai: ok, 180 advisories
+2026-10-03T21:24:38+00:00 stage5 900/1420 nltk/nltk: ok, 38 advisories
+2026-10-03T21:25:47+00:00 stage5 1000/1420 patrickjuchli/basic-ftp: ok, 6 advisories
+2026-10-03T21:26:48+00:00 stage5 1100/1420 qix-/node-simple-swizzle: ok, 1 advisories
+2026-10-03T21:27:48+00:00 stage5 1200/1420 snowyu/git-commiters.js: ok, 1 advisories
+2026-10-03T21:28:51+00:00 stage5 1300/1420 ueberdosis/tiptap: ok, 3 advisories
+2026-10-03T21:29:52+00:00 stage5 1400/1420 yhatt/jsx-slack: ok, 2 advisories
+2026-10-03T21:30:04+00:00 stage5 done
+2026-10-03T21:30:22+00:00 PyPI: 1290 packages, 1290 done, 0 to fetch
+2026-10-03T21:30:23+00:00 npm: 2357 packages, 2357 done, 0 to fetch
+2026-10-03T21:30:23+00:00 stage2 done
