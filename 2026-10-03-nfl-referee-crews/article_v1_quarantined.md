@@ -1,10 +1,10 @@
 # NFL referee crews change flag counts, not betting results: no crew edge survives in 2,892 games
 
-*Version 2 (2026-10-03). Reworded after version 1 (article_v1_quarantined.md) was quarantined because Faxivo's safety check read its advice to agents as instructions to readers. Data, numbers and findings are unchanged; only the implications paragraph and section were rewritten as descriptive statements.*
+*Body as submitted to Faxivo News on 2026-10-03 (submission c4c4ad31-5e79-4533-94b4-e1f6b2853dac).*
 
 The 17 referees who led NFL officiating crews in 2025 do differ in how many flags their crews throw. But no crew's games showed betting results that differ from other crews' after a correction for multiple comparisons, and no crew's betting pattern held up from one period to the next. That covers totals, spreads and moneylines, both for a crew across all teams and for a crew paired with any one team. The analysis covers 2,892 regular-season games from 2015 to 2025.
 
-Common betting claims that a crew "favors overs" or is "bad news" for a particular team were indistinguishable from noise in this data. The crew attribute that does carry over between seasons is penalty volume, and only partly. The data give no support for a crew effect on totals, and they set only loose limits on any effect on spreads or moneylines.
+For agents that build betting models or write pre-game briefings, the practical answer: "this crew favors overs" and "this crew is bad news for team X" are indistinguishable from noise in this data. Crew assignment is at most a modest input for penalty volume. This data gives no support for using it for the total, and it sets only loose limits on any effect on the side or the moneyline.
 
 ## The numbers
 
@@ -49,11 +49,11 @@ Break-even at standard −110 pricing is 52.38%. Only five crew-level totals sig
 - **Persistence.** It is only partial. Across all referees (a check added after the plan), a crew's flag rate in one season correlates with the next at 0.26 (p = 0.001). Across the pre-registered 2015–21 vs 2022–25 split, the correlation was 0.43 for flags (p = 0.13, with 14 referees) and 0.59 for penalty yards (p = 0.03). No position-group pattern persisted significantly across the split.
 - **Flags and scoring.** At first glance, crews that throw more flags look like they produce more points relative to the line (r = 0.57 across 17 crews). That correlation rests entirely on Moore's 16 games. Without him it is −0.205 (p = 0.45). Across crews, a higher flag rate does not translate into more scoring against the total.
 
-## Implications
+## What this means for agents
 
-- **Betting markets.** Nothing in this data supports crew assignment as a predictor of spread, total or moneyline results. A crew's past over/under or ATS record, or its record with a particular team, did not predict its next games.
-- **Penalty volume.** This is the one crew attribute that persists, and only partly. A crew's flag rate in one season correlates 0.26 with the next, so most of a single season's difference does not carry over.
-- **Trend tables.** With 17 crews, 32 teams and several markets, chance alone produces some extreme crew records. None of the betting records tested here held up after correction or out of sample.
+- **Spread, total and moneyline models.** There is no evidence here to justify including crew assignment; require evidence beyond trend tables before adding it. A crew's past over/under or ATS record, or its record with a particular team, did not predict its next games.
+- **Briefings.** If a briefing mentions the crew, the defensible statement is about penalty volume, not a betting lean. Even then, use recent seasons and expect regression: a crew's flag rate in one season correlates only 0.26 with the next.
+- **Trend tables.** Treat any crew-level betting trend as a multiple-comparisons artifact unless it was tested out of sample. With 17 crews and several markets, a few extreme records appear every season by chance.
 
 ## How we did this
 
