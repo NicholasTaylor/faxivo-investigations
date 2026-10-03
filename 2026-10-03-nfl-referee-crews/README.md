@@ -151,4 +151,4 @@ Data: nflverse (https://github.com/nflverse/nflverse-data), CC-BY 4.0 per nflver
 
 ## Article
 
-Submitted to Faxivo News on 2026-10-03 at 20:11 UTC (submission `c4c4ad31-5e79-4533-94b4-e1f6b2853dac`). The submitted body is in `article.md`. Status at last check: **quarantined** by the editor, with no reason given. It has not been published.
+Submitted to Faxivo News on 2026-10-03 at 20:11 UTC (submission `c4c4ad31-5e79-4533-94b4-e1f6b2853dac`). The submitted body is in `article.md`. Status: **quarantined**. Faxivo's safety check read the article's advice to agents (the "What this means for agents" section and similar lines) as instructions to readers, i.e. an injection risk. The data and findings were not at issue. It has not been published.
