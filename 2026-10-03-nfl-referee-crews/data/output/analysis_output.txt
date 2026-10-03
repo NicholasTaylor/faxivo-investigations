@@ -1,0 +1,295 @@
+
+=== coverage ===
+regular-season games 2015-2025 in schedules: 2895
+games without a referee in officials file: 3
+games where officials file and schedules disagree or officials missing: 31 ; resolved by ESPN: 28 ; dropped (ESPN lists no referee): 3
+referee labels changed from officials file: 20 ; of which officials file had none: 3
+referees leading crews in 2025 REG: 17 ['Adrian Hill', 'Alan Eck', 'Alex Kemp', 'Alex Moore', 'Bill Vinovich', 'Brad Allen', 'Brad Rogers', 'Carl Cheffers', 'Clay Martin', 'Clete Blakeman', 'Craig Wrolstad', 'John Hussey', 'Land Clark', 'Ronald Torbert', 'Scott Novak', 'Shawn Hochuli', 'Shawn Smith']
+games in analysis: 2892 ; games refereed by the 17: 2165
+                games  first  seasons
+ref17                                
+Adrian Hill       110   2019        7
+Alan Eck           48   2023        3
+Alex Kemp         126   2018        8
+Alex Moore         16   2025        1
+Bill Vinovich     171   2015       11
+Brad Allen        169   2015       11
+Brad Rogers        92   2020        6
+Carl Cheffers     171   2015       11
+Clay Martin       122   2018        8
+Clete Blakeman    171   2015       11
+Craig Wrolstad    172   2015       11
+John Hussey       170   2015       11
+Land Clark         95   2020        6
+Ronald Torbert    172   2015       11
+Scott Novak       112   2019        7
+Shawn Hochuli     124   2018        8
+Shawn Smith       124   2018        8
+schedule games with no pbp: 0
+
+=== league context ===
+games=2892 mean flags/game=12.59 mean pen yards/game=106.1
+over rate (ex pushes)=0.4888 n=2866; home cover=0.4879 n=2820
+missing lines: {'spread_line': 0, 'total_line': 0, 'p_home': 1}
+
+=== position-group attribution ===
+grp
+OL              9732
+DB              8489
+DL              4629
+LB              3820
+WR              2939
+TE              2393
+unattributed    2287
+QB               901
+RB               875
+ST               393
+attributed share: 0.9373 of 36458 flags
+
+=== crew level (17 referees vs other crews in the same seasons; permutation within season) ===
+[C1 total points minus total line] tests=17 raw p<0.05=0 expected by chance=0.9 BH-significant(q<0.05)=0 min p=0.1093 min q=0.928
+    Alex Moore                       n=  16 effect=+5.418 95%CI[-1.742,+12.578] p=0.1093 q=0.928
+    Shawn Smith                      n= 124 effect=+1.819 95%CI[-0.576,+4.214] p=0.1328 q=0.928
+    Adrian Hill                      n= 110 effect=-1.724 95%CI[-4.160,+0.712] p=0.1783 q=0.928
+    Shawn Hochuli                    n= 124 effect=-1.330 95%CI[-3.511,+0.852] p=0.2744 q=0.928
+    Carl Cheffers                    n= 171 effect=-0.770 95%CI[-2.792,+1.253] p=0.4589 q=0.928
+    Brad Allen                       n= 169 effect=-0.700 95%CI[-2.814,+1.414] p=0.5047 q=0.928
+    Bill Vinovich                    n= 171 effect=-0.705 95%CI[-2.850,+1.439] p=0.5061 q=0.928
+    Ronald Torbert                   n= 172 effect=+0.536 95%CI[-1.642,+2.713] p=0.6026 q=0.928
+    Scott Novak                      n= 112 effect=-0.578 95%CI[-3.067,+1.911] p=0.6487 q=0.928
+    Clay Martin                      n= 122 effect=+0.502 95%CI[-2.004,+3.009] p=0.6829 q=0.928
+    Brad Rogers                      n=  92 effect=+0.497 95%CI[-2.170,+3.165] p=0.7275 q=0.928
+    Craig Wrolstad                   n= 172 effect=-0.328 95%CI[-2.241,+1.586] p=0.7497 q=0.928
+    Alan Eck                         n=  48 effect=+0.488 95%CI[-2.322,+3.298] p=0.8081 q=0.928
+    Alex Kemp                        n= 126 effect=+0.230 95%CI[-2.138,+2.598] p=0.8482 q=0.928
+    John Hussey                      n= 170 effect=-0.180 95%CI[-2.200,+1.840] p=0.8650 q=0.928
+    Land Clark                       n=  95 effect=+0.225 95%CI[-2.386,+2.837] p=0.8730 q=0.928
+    Clete Blakeman                   n= 171 effect=-0.002 95%CI[-2.062,+2.058] p=0.9986 q=0.999
+[C1b over rate (ex pushes)] tests=17 raw p<0.05=0 expected by chance=0.9 BH-significant(q<0.05)=0 min p=0.1354 min q=1.000
+    Shawn Hochuli                    n= 121 effect=-0.071 95%CI[-0.162,+0.020] p=0.1354 q=1.000
+    Bill Vinovich                    n= 169 effect=-0.048 95%CI[-0.125,+0.029] p=0.2423 q=1.000
+    Brad Allen                       n= 168 effect=-0.039 95%CI[-0.117,+0.039] p=0.3437 q=1.000
+    Adrian Hill                      n= 110 effect=-0.048 95%CI[-0.144,+0.049] p=0.3775 q=1.000
+    Brad Rogers                      n=  92 effect=+0.047 95%CI[-0.058,+0.153] p=0.3948 q=1.000
+    Alex Kemp                        n= 123 effect=+0.043 95%CI[-0.049,+0.135] p=0.3966 q=1.000
+    Alex Moore                       n=  16 effect=+0.109 95%CI[-0.143,+0.362] p=0.4464 q=1.000
+    John Hussey                      n= 167 effect=-0.023 95%CI[-0.101,+0.054] p=0.5806 q=1.000
+    Alan Eck                         n=  48 effect=-0.029 95%CI[-0.176,+0.117] p=0.7613 q=1.000
+    Ronald Torbert                   n= 171 effect=-0.010 95%CI[-0.087,+0.068] p=0.8137 q=1.000
+    Land Clark                       n=  93 effect=-0.016 95%CI[-0.121,+0.089] p=0.8366 q=1.000
+    Scott Novak                      n= 112 effect=-0.010 95%CI[-0.105,+0.086] p=0.8416 q=1.000
+    Carl Cheffers                    n= 171 effect=+0.009 95%CI[-0.068,+0.086] p=0.8792 q=1.000
+    Shawn Smith                      n= 123 effect=+0.007 95%CI[-0.084,+0.098] p=0.9282 q=1.000
+    Craig Wrolstad                   n= 171 effect=-0.004 95%CI[-0.081,+0.073] p=0.9327 q=1.000
+    Clete Blakeman                   n= 170 effect=-0.001 95%CI[-0.078,+0.077] p=1.0000 q=1.000
+    Clay Martin                      n= 121 effect=-0.001 95%CI[-0.093,+0.091] p=1.0000 q=1.000
+[C2 home margin minus spread] tests=17 raw p<0.05=2 expected by chance=0.9 BH-significant(q<0.05)=0 min p=0.0180 min q=0.306
+    Carl Cheffers                    n= 171 effect=+2.376 95%CI[+0.370,+4.381] p=0.0180 q=0.306
+    Scott Novak                      n= 112 effect=-2.557 95%CI[-4.907,-0.207] p=0.0400 q=0.340
+    Bill Vinovich                    n= 171 effect=-1.588 95%CI[-3.664,+0.488] p=0.1202 q=0.508
+    Alan Eck                         n=  48 effect=+2.810 95%CI[-1.293,+6.913] p=0.1376 q=0.508
+[C2b home cover rate (ex pushes)] tests=17 raw p<0.05=2 expected by chance=0.9 BH-significant(q<0.05)=0 min p=0.0182 min q=0.307
+    John Hussey                      n= 164 effect=+0.097 95%CI[+0.019,+0.175] p=0.0182 q=0.307
+    Bill Vinovich                    n= 166 effect=-0.084 95%CI[-0.161,-0.006] p=0.0361 q=0.307
+    Scott Novak                      n= 110 effect=-0.094 95%CI[-0.188,+0.000] p=0.0560 q=0.317
+    Ronald Torbert                   n= 169 effect=-0.066 95%CI[-0.143,+0.011] p=0.1137 q=0.483
+[C3 home win minus implied prob] tests=17 raw p<0.05=2 expected by chance=0.9 BH-significant(q<0.05)=0 min p=0.0320 min q=0.284
+    John Hussey                      n= 169 effect=+0.078 95%CI[+0.007,+0.149] p=0.0320 q=0.284
+    Bill Vinovich                    n= 171 effect=-0.078 95%CI[-0.151,-0.005] p=0.0334 q=0.284
+    Carl Cheffers                    n= 171 effect=+0.050 95%CI[-0.019,+0.119] p=0.1634 q=0.633
+    Land Clark                       n=  95 effect=-0.065 95%CI[-0.163,+0.032] p=0.1735 q=0.633
+[C4 accepted flags per game] tests=17 raw p<0.05=7 expected by chance=0.9 BH-significant(q<0.05)=6 min p=0.0001 min q=0.002
+    Bill Vinovich                    n= 171 effect=-1.692 95%CI[-2.299,-1.085] p=0.0001 q=0.002
+    Alex Moore                       n=  16 effect=+3.613 95%CI[+1.321,+5.905] p=0.0015 q=0.013
+    Shawn Hochuli                    n= 124 effect=+1.083 95%CI[+0.398,+1.769] p=0.0035 q=0.020
+    Carl Cheffers                    n= 171 effect=+0.827 95%CI[+0.185,+1.470] p=0.0099 q=0.037
+    Alan Eck                         n=  48 effect=-1.549 95%CI[-2.428,-0.671] p=0.0108 q=0.037
+    John Hussey                      n= 170 effect=-0.765 95%CI[-1.392,-0.139] p=0.0165 q=0.047
+    Adrian Hill                      n= 110 effect=+0.820 95%CI[+0.079,+1.561] p=0.0349 q=0.085
+    Alex Kemp                        n= 126 effect=+0.684 95%CI[+0.023,+1.345] p=0.0616 q=0.131
+    Brad Allen                       n= 169 effect=-0.544 95%CI[-1.159,+0.070] p=0.0966 q=0.182
+    Scott Novak                      n= 112 effect=-0.548 95%CI[-1.392,+0.296] p=0.1567 q=0.266
+    Clete Blakeman                   n= 171 effect=+0.367 95%CI[-0.265,+1.000] p=0.2567 q=0.397
+    Craig Wrolstad                   n= 172 effect=-0.281 95%CI[-0.879,+0.318] p=0.3814 q=0.540
+    Brad Rogers                      n=  92 effect=+0.261 95%CI[-0.466,+0.987] p=0.5503 q=0.675
+    Clay Martin                      n= 122 effect=-0.218 95%CI[-0.934,+0.499] p=0.5559 q=0.675
+    Land Clark                       n=  95 effect=+0.078 95%CI[-0.734,+0.889] p=0.8627 q=0.978
+    Ronald Torbert                   n= 172 effect=+0.003 95%CI[-0.654,+0.659] p=1.0000 q=1.000
+    Shawn Smith                      n= 124 effect=+0.004 95%CI[-0.662,+0.670] p=1.0000 q=1.000
+[C5 penalty yards per game] tests=17 raw p<0.05=8 expected by chance=0.9 BH-significant(q<0.05)=3 min p=0.0001 min q=0.002
+    Bill Vinovich                    n= 171 effect=-16.490 95%CI[-22.350,-10.630] p=0.0001 q=0.002
+    Shawn Hochuli                    n= 124 effect=+11.893 95%CI[+5.018,+18.768] p=0.0008 q=0.007
+    Alex Moore                       n=  16 effect=+26.637 95%CI[+8.504,+44.770] p=0.0074 q=0.042
+    Brad Allen                       n= 169 effect=-7.646 95%CI[-13.360,-1.933] p=0.0136 q=0.057
+flags/game: range of crew effects -1.69 to +3.61; BH-significant crews 6 of 17
+    Bill Vinovich      games=171 flags/game=11.00 vs other crews -1.69  over 75-94-2 (0.444) total-line resid -0.25
+    Alan Eck           games= 48 flags/game=10.88 vs other crews -1.55  over 23-25-0 (0.479) total-line resid +1.53
+    John Hussey        games=170 flags/game=11.87 vs other crews -0.77  over 78-89-3 (0.467) total-line resid +0.24
+    Scott Novak        games=112 flags/game=11.59 vs other crews -0.55  over 54-58-0 (0.482) total-line resid +0.09
+    Brad Allen         games=169 flags/game=12.07 vs other crews -0.54  over 76-92-1 (0.452) total-line resid -0.25
+    Craig Wrolstad     games=172 flags/game=12.32 vs other crews -0.28  over 83-88-1 (0.485) total-line resid +0.11
+    Clay Martin        games=122 flags/game=12.07 vs other crews -0.22  over 59-62-1 (0.488) total-line resid +1.02
+    Ronald Torbert     games=172 flags/game=12.58 vs other crews +0.00  over 82-89-1 (0.480) total-line resid +0.91
+    Shawn Smith        games=124 flags/game=12.27 vs other crews +0.00  over 61-62-1 (0.496) total-line resid +2.29
+    Land Clark         games= 95 flags/game=11.95 vs other crews +0.08  over 44-49-2 (0.473) total-line resid +0.85
+    Brad Rogers        games= 92 flags/game=12.14 vs other crews +0.26  over 49-43-0 (0.533) total-line resid +1.08
+    Clete Blakeman     games=171 flags/game=12.94 vs other crews +0.37  over 83-87-1 (0.488) total-line resid +0.40
+    Alex Kemp          games=126 flags/game=12.89 vs other crews +0.68  over 65-58-3 (0.528) total-line resid +0.79
+    Adrian Hill        games=110 flags/game=12.84 vs other crews +0.82  over 49-61-0 (0.445) total-line resid -1.00
+    Carl Cheffers      games=171 flags/game=13.37 vs other crews +0.83  over 85-86-0 (0.497) total-line resid -0.32
+    Shawn Hochuli      games=124 flags/game=13.28 vs other crews +1.08  over 51-70-3 (0.421) total-line resid -0.69
+    Alex Moore         games= 16 flags/game=16.12 vs other crews +3.61  over 10-6-0 (0.625) total-line resid +6.25
+
+=== does crew flag rate relate to totals? (17 refs) ===
+pearson(flags effect, total_resid effect) r=0.574 p=0.016
+spearman(flags effect, over effect) rho=0.402 p=0.110
+game-level: corr(flags, total_resid) r=0.055 p=0.003 n=2892
+
+=== variance components: between-crew SD (MixedLM, 17 refs' games, season fixed effects) ===
+total_resid    between-crew SD=0.139 residual SD=13.083 LRT p=1 n=2165
+home_ats       between-crew SD=0.296 residual SD=12.777 LRT p=0.317 n=2165
+home_ml_resid  between-crew SD=0.023 residual SD=0.457 LRT p=0.172 n=2164
+nflags         between-crew SD=0.713 residual SD=3.943 LRT p=6.49e-09 n=2165
+pen_yards      between-crew SD=6.448 residual SD=38.406 LRT p=7.22e-09 n=2165
+over           between-crew SD=0.000 residual SD=0.498 LRT p=1 n=2146
+
+=== crew x position group: flags/game against each group (permutation within season) ===
+[crew x position group flags/game] tests=153 raw p<0.05=22 expected by chance=7.7 BH-significant(q<0.05)=8 min p=0.0002 min q=0.023
+    Bill Vinovich x OL               n= 171 effect=-0.600 95%CI[-0.863,-0.338] p=0.0002 q=0.023
+    Brad Allen x OL                  n= 169 effect=-0.561 95%CI[-0.844,-0.277] p=0.0003 q=0.023
+    Land Clark x WR                  n=  95 effect=+0.357 95%CI[+0.138,+0.576] p=0.0006 q=0.027
+    Alex Moore x DL                  n=  16 effect=+1.109 95%CI[+0.297,+1.921] p=0.0010 q=0.027
+    Alex Moore x OL                  n=  16 effect=+1.746 95%CI[+0.242,+3.251] p=0.0011 q=0.027
+    Scott Novak x LB                 n= 112 effect=-0.365 95%CI[-0.539,-0.191] p=0.0013 q=0.027
+    Shawn Hochuli x OL               n= 124 effect=+0.568 95%CI[+0.211,+0.925] p=0.0014 q=0.027
+    Adrian Hill x RB                 n= 110 effect=+0.167 95%CI[+0.029,+0.306] p=0.0014 q=0.027
+    Bill Vinovich x LB               n= 171 effect=-0.284 95%CI[-0.459,-0.108] p=0.0050 q=0.085
+    Alex Kemp x DL                   n= 126 effect=+0.335 95%CI[+0.086,+0.585] p=0.0075 q=0.115
+    Ronald Torbert x OL              n= 172 effect=+0.371 95%CI[+0.051,+0.690] p=0.0135 q=0.188
+    Ronald Torbert x DL              n= 172 effect=-0.266 95%CI[-0.451,-0.081] p=0.0149 q=0.190
+league mean flags/game by group: {'QB': np.float64(0.312), 'RB': np.float64(0.303), 'WR': np.float64(1.015), 'TE': np.float64(0.827), 'OL': np.float64(3.36), 'DL': np.float64(1.599), 'LB': np.float64(1.32), 'DB': np.float64(2.933), 'ST': np.float64(0.136)}
+
+=== crew x team (cells with >=3 games; permutation within team-season) ===
+[T1 flags against team] tests=494 raw p<0.05=36 expected by chance=24.7 BH-significant(q<0.05)=0 min p=0.0022 min q=0.420
+    Brad Allen x CHI                 n=  11 effect=-2.329 95%CI[-3.435,-1.222] p=0.0022 q=0.420
+    Shawn Smith x DAL                n=   5 effect=-3.982 95%CI[-5.214,-2.749] p=0.0027 q=0.420
+    Scott Novak x SEA                n=   7 effect=-3.164 95%CI[-4.494,-1.835] p=0.0032 q=0.420
+    Shawn Hochuli x BUF              n=   5 effect=+3.898 95%CI[+1.744,+6.053] p=0.0034 q=0.420
+    Alex Kemp x WAS                  n=   9 effect=+2.488 95%CI[+0.683,+4.293] p=0.0053 q=0.524
+[T2 penalty yards against team] tests=494 raw p<0.05=36 expected by chance=24.7 BH-significant(q<0.05)=0 min p=0.0014 min q=0.593
+    Shawn Hochuli x GB               n=   7 effect=+27.994 95%CI[+9.024,+46.964] p=0.0014 q=0.593
+    Carl Cheffers x CIN              n=  10 effect=+22.428 95%CI[+9.408,+35.447] p=0.0040 q=0.593
+    Shawn Smith x DAL                n=   5 effect=-32.885 95%CI[-40.345,-25.425] p=0.0040 q=0.593
+    Brad Allen x CHI                 n=  11 effect=-24.522 95%CI[-34.129,-14.914] p=0.0049 q=0.593
+    Alex Kemp x ATL                  n=   9 effect=+22.443 95%CI[-2.176,+47.061] p=0.0087 q=0.593
+[T3 team margin minus spread] tests=494 raw p<0.05=21 expected by chance=24.7 BH-significant(q<0.05)=0 min p=0.0009 min q=0.445
+    Bill Vinovich x LA               n=  13 effect=-11.946 95%CI[-17.175,-6.716] p=0.0009 q=0.445
+    Ronald Torbert x LA              n=  14 effect=+10.281 95%CI[+2.582,+17.980] p=0.0056 q=0.937
+    Brad Allen x CLE                 n=  15 effect=-8.740 95%CI[-15.292,-2.189] p=0.0059 q=0.937
+    Alan Eck x BAL                   n=   4 effect=+16.380 95%CI[+5.012,+27.748] p=0.0133 q=0.937
+    Ronald Torbert x NYJ             n=  11 effect=-10.303 95%CI[-18.599,-2.006] p=0.0137 q=0.937
+[T3b team cover rate] tests=494 raw p<0.05=11 expected by chance=24.7 BH-significant(q<0.05)=0 min p=0.0087 min q=1.000
+    Bill Vinovich x BAL              n=  11 effect=+0.421 95%CI[+0.236,+0.605] p=0.0087 q=1.000
+    Bill Vinovich x LA               n=  13 effect=-0.394 95%CI[-0.614,-0.173] p=0.0089 q=1.000
+    Clay Martin x WAS                n=   9 effect=+0.478 95%CI[+0.253,+0.704] p=0.0123 q=1.000
+    Shawn Hochuli x CLE              n=  10 effect=+0.394 95%CI[+0.108,+0.679] p=0.0193 q=1.000
+    Scott Novak x KC                 n=   4 effect=+0.648 95%CI[+0.465,+0.831] p=0.0200 q=1.000
+[T4 total points minus total line] tests=494 raw p<0.05=17 expected by chance=24.7 BH-significant(q<0.05)=0 min p=0.0012 min q=0.469
+    Brad Allen x LAC                 n=   7 effect=+17.903 95%CI[+6.534,+29.272] p=0.0012 q=0.469
+    Carl Cheffers x NYG              n=  11 effect=-12.730 95%CI[-19.506,-5.955] p=0.0019 q=0.469
+    Ronald Torbert x GB              n=  11 effect=+11.125 95%CI[+0.727,+21.524] p=0.0101 q=0.909
+    Brad Allen x ATL                 n=  12 effect=-9.687 95%CI[-15.812,-3.562] p=0.0128 q=0.909
+    Land Clark x NE                  n=   7 effect=-10.618 95%CI[-17.936,-3.300] p=0.0169 q=0.909
+[T5 team win minus implied prob] tests=494 raw p<0.05=26 expected by chance=24.7 BH-significant(q<0.05)=0 min p=0.0018 min q=0.428
+    Land Clark x DET                 n=   6 effect=+0.543 95%CI[+0.343,+0.744] p=0.0018 q=0.428
+    Bill Vinovich x LA               n=  13 effect=-0.411 95%CI[-0.622,-0.200] p=0.0018 q=0.428
+    Ronald Torbert x NYJ             n=  11 effect=-0.405 95%CI[-0.542,-0.268] p=0.0026 q=0.428
+    Land Clark x DAL                 n=   4 effect=+0.594 95%CI[+0.413,+0.775] p=0.0070 q=0.630
+    Land Clark x CAR                 n=   4 effect=+0.555 95%CI[+0.054,+1.056] p=0.0084 q=0.630
+crew x team cells: 539 with any game; >=3 games: 494; median games/cell 8; max 17
+
+=== crew x team: random-effects between-cell SD (MixedLM on team-season-demeaned values, 17 refs) ===
+t_flags_adj  between-cell SD=0.341 residual SD=2.495 LRT p=0.00941; most extreme raw cell Shawn Smith x DAL n=5 raw=-3.982 shrunk=-0.341
+ats          between-cell SD=0.294 residual SD=12.383 LRT p=0.47; most extreme raw cell Alan Eck x BAL n=4 raw=+16.380 shrunk=+0.037
+cover        between-cell SD=0.000 residual SD=0.486 LRT p=1; most extreme raw cell Scott Novak x KC n=4 raw=+0.648 shrunk=+0.000
+total_resid  between-cell SD=0.001 residual SD=12.734 LRT p=1; most extreme raw cell Brad Allen x LAC n=7 raw=+17.903 shrunk=+0.000
+ml_resid     between-cell SD=0.000 residual SD=0.443 LRT p=1; most extreme raw cell Scott Novak x LA n=4 raw=-0.614 shrunk=-0.000
+
+=== most extreme crew x team cover records (raw, before correction) ===
+    Bill Vinovich x BAL          10-1 p=0.0087 q=1.000
+    Bill Vinovich x LA           2-11 p=0.0089 q=1.000
+    Clay Martin x WAS            8-1 p=0.0123 q=1.000
+    Shawn Hochuli x CLE          8-2 p=0.0193 q=1.000
+    Scott Novak x KC             4-0 p=0.0200 q=1.000
+
+=== out of sample: split 2015-2021 (fit) vs 2022-2025 (test) ===
+nflags         refs=14 pearson r=+0.426 p=0.129
+pen_yards      refs=14 pearson r=+0.588 p=0.027
+total_resid    refs=14 pearson r=-0.128 p=0.664
+over           refs=13 pearson r=-0.275 p=0.363
+home_ats       refs=14 pearson r=-0.030 p=0.920
+home_cover     refs=14 pearson r=+0.180 p=0.538
+home_ml_resid  refs=14 pearson r=-0.234 p=0.420
+   group QB  flags/game refs=14 r=+0.045 p=0.878
+   group RB  flags/game refs=14 r=-0.013 p=0.966
+   group WR  flags/game refs=14 r=+0.420 p=0.135
+   group TE  flags/game refs=14 r=+0.054 p=0.853
+   group OL  flags/game refs=14 r=+0.313 p=0.276
+   group DL  flags/game refs=14 r=+0.342 p=0.231
+   group LB  flags/game refs=14 r=+0.479 p=0.083
+   group DB  flags/game refs=14 r=+0.190 p=0.515
+   group ST  flags/game refs=14 r=-0.509 p=0.063
+cell t_flags_adj  cells=333 pearson r=+0.156 p=0.004
+cell t_yards_adj  cells=333 pearson r=+0.115 p=0.036
+cell ats          cells=333 pearson r=-0.009 p=0.869
+cell cover        cells=325 pearson r=-0.046 p=0.408
+cell total_resid  cells=333 pearson r=-0.021 p=0.707
+cell ml_resid     cells=333 pearson r=-0.039 p=0.482
+
+=== walk-forward betting simulation 2019-2025 (signals from all prior seasons since 2015) ===
+crew-level over/under signals (season, ref, overs, decided games): [(2021, 'Brad Rogers', 11, 12), (2022, 'Bill Vinovich', 42, 106), (2022, 'Brad Rogers', 21, 28), (2023, 'Bill Vinovich', 49, 121), (2024, 'Bill Vinovich', 55, 137)]
+Crew-level totals (pre-registered): 40-38 win rate=0.5128 95%CI[0.4039,0.6205] (break-even 0.5238) units at -110=-1.6
+   per season (S, wins, losses): [(2019, 0, 0), (2020, 0, 0), (2021, 10, 6), (2022, 14, 17), (2023, 10, 6), (2024, 6, 9), (2025, 0, 0)]
+Crew x team spread (pre-registered): 286-291 win rate=0.4957 95%CI[0.4550,0.5364] (break-even 0.5238) units at -110=-31.0
+   crew x team bets=577 on 512 games; games bet more than once=65 (bets on both sides of the same game: 28)
+Crew x team spread, one bet per game (opposing bets cancelled): 242-242 win rate=0.5000 95%CI[0.4556,0.5444] (break-even 0.5238) units at -110=-22.0
+Crew-level home spread (added, not pre-registered): 83-93 win rate=0.4716 95%CI[0.3992,0.5452] (break-even 0.5238) units at -110=-17.5
+
+=== chance benchmark ===
+t_flags_adj  cells=494 raw p<0.05=36 expected=24.7 BH=0
+t_yards_adj  cells=494 raw p<0.05=36 expected=24.7 BH=0
+ats          cells=494 raw p<0.05=21 expected=24.7 BH=0
+cover        cells=494 raw p<0.05=11 expected=24.7 BH=0
+total_resid  cells=494 raw p<0.05=17 expected=24.7 BH=0
+ml_resid     cells=494 raw p<0.05=26 expected=24.7 BH=0
+total crew x team tests across T1-T5 families: 2964
+
+=== EXPLORATORY (not pre-registered) ===
+crew flags effect vs total_resid effect, excluding Alex Moore (16 games): r=-0.205 p=0.446 n=16
+year-to-year nflags       ref-season pairs=158 (all referees) r=+0.260 p=0.00099
+year-to-year pen_yards    ref-season pairs=158 (all referees) r=+0.290 p=0.000219
+year-to-year total_resid  ref-season pairs=158 (all referees) r=-0.101 p=0.205
+year-to-year over         ref-season pairs=158 (all referees) r=-0.084 p=0.291
+year-to-year home_ats     ref-season pairs=158 (all referees) r=+0.000 p=0.999
+
+=== power: minimum detectable effects (80% power, two-sided alpha=0.05) and upper bounds on crew effects ===
+n=170 games: over-rate MDE=+/-10.7 pp (at alpha=0.05/17: 14.6 pp); total-residual MDE=+/-2.8 pts (at 0.05/17: 3.9)
+n=110 games: over-rate MDE=+/-13.4 pp (at alpha=0.05/17: 18.2 pp); total-residual MDE=+/-3.5 pts (at 0.05/17: 4.8)
+game-level SD of total minus line=13.18; break-even at -110 is 52.38% (+2.38 pp over 50%)
+games per crew needed to detect 52.38% vs 50% (80% power, alpha=.05): 3465
+over         Q(0)=7.2 on df=16; 95% upper bound on between-crew SD = 0.99 pp
+total_resid  Q(0)=9.4 on df=16; 95% upper bound on between-crew SD = 0.80 pts
+home_cover   Q(0)=24.1 on df=16; 95% upper bound on between-crew SD = 7.10 pp
+home_ats     Q(0)=19.9 on df=16; 95% upper bound on between-crew SD = 1.65 pts
+nflags       Q(0)=84.4 on df=16; 95% upper bound on between-crew SD = 1.50 flags
+total        Q(0)=7.6 on df=16; 95% upper bound on between-crew SD = 0.44 pts
+
+=== raw scoring by crew (total points, not relative to the line; added after review) ===
+[total points per game (raw)] tests=17 raw p<0.05=0 expected by chance=0.9 BH-significant(q<0.05)=0 min p=0.1703 min q=1.000
+    Alex Moore                       n=  16 effect=+4.953 95%CI[-2.498,+12.404] p=0.1703 q=1.000
+    Shawn Smith                      n= 124 effect=+1.682 95%CI[-0.804,+4.169] p=0.1894 q=1.000
+    Adrian Hill                      n= 110 effect=-1.788 95%CI[-4.407,+0.831] p=0.1897 q=1.000
+    Shawn Hochuli                    n= 124 effect=-1.454 95%CI[-3.919,+1.012] p=0.2508 q=1.000
+
+=== penalty-count limitation: plays whose description mentions more than one penalty ===
+penalty plays with >1 'PENALTY on' in description: 73 of 36458; extra penalty mentions: 74 (includes declined/offsetting)

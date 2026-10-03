@@ -1,0 +1,156 @@
+{
+ "collected_at_utc": "2026-10-03T18:51:08+00:00",
+ "files": [
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/officials/officials.parquet",
+   "path": "data/raw/officials.parquet",
+   "bytes": 150096,
+   "sha256": "fec0532a78c81027c2e2e73a077bc332147f473b8377ae39e8302e2bfe42e7c9"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.parquet",
+   "path": "data/raw/games.parquet",
+   "bytes": 521609,
+   "sha256": "fcb1782521c92e66f1b64842090607985aa0f73137f984384f2cef3c4ac4fb51"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2015.parquet",
+   "path": "data/cache/play_by_play_2015.parquet",
+   "bytes": 19545842,
+   "sha256": "01b5ae7d06633a2e66b418404461a3d4ff055ad2f3a87d453cebcc8d3fda7ed9"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2015.parquet",
+   "path": "data/raw/roster_2015.parquet",
+   "bytes": 370744,
+   "sha256": "4c745ba50ba3def3354d924ea871c474e76517a341a6fdc9a5e3d9f212e847eb"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2016.parquet",
+   "path": "data/cache/play_by_play_2016.parquet",
+   "bytes": 19344382,
+   "sha256": "95eba04e2145e3c1c8ca502f2a3a76cfb0a5990680c3fb480f02a74a45f54a3b"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2016.parquet",
+   "path": "data/raw/roster_2016.parquet",
+   "bytes": 502416,
+   "sha256": "a99e54a253f9cfa2ff59158264ddcbe72d05aee601258eaa2ec928bd2400b0f5"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2017.parquet",
+   "path": "data/cache/play_by_play_2017.parquet",
+   "bytes": 19050401,
+   "sha256": "84eacd963c1fdd45965f6222c62e9329a7f3412f029d92c1ac5e34a1bb4d3710"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2017.parquet",
+   "path": "data/raw/roster_2017.parquet",
+   "bytes": 539689,
+   "sha256": "e8e6b9b056e4e6e99f72498070dfe7ca217d8c7cb5af9f606c9a0324e8bc3cb5"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2018.parquet",
+   "path": "data/cache/play_by_play_2018.parquet",
+   "bytes": 19072097,
+   "sha256": "2e6f2dce7c7ebd46e985cabe0c17eb72b39a77f98cb4478409294f50b5820150"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2018.parquet",
+   "path": "data/raw/roster_2018.parquet",
+   "bytes": 573712,
+   "sha256": "259532b0bd2f68e01db949023e9f001878c9da9d2c912fef5352324d08b9df07"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2019.parquet",
+   "path": "data/cache/play_by_play_2019.parquet",
+   "bytes": 19119729,
+   "sha256": "60c3067017db2d28a78f66a79b657268be8578d9a5288e6a827efdcd7fe42540"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2019.parquet",
+   "path": "data/raw/roster_2019.parquet",
+   "bytes": 582005,
+   "sha256": "8aeee315dbf27fc07d5a41a65ac0be0cb00bd63c4a4a23298e0b15228cedd49f"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2020.parquet",
+   "path": "data/cache/play_by_play_2020.parquet",
+   "bytes": 19286459,
+   "sha256": "8889f5d8782b5c5dce3c3644acdc0322b228a7e9cb13fa36cbac250e260e9f60"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2020.parquet",
+   "path": "data/raw/roster_2020.parquet",
+   "bytes": 582955,
+   "sha256": "f511f31fe0472c0d0bca87583240c68ca7dc1294f9b7975f5793655bd4598948"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2021.parquet",
+   "path": "data/cache/play_by_play_2021.parquet",
+   "bytes": 20249925,
+   "sha256": "333ad34378e5339d5172717cc83378e908daf02c8699416ab3e17c2ec10f78d8"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2021.parquet",
+   "path": "data/raw/roster_2021.parquet",
+   "bytes": 559243,
+   "sha256": "6201527093636f44ac74d94f88d57b65bc48c3818c65854ee092b742d6ae6e47"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2022.parquet",
+   "path": "data/cache/play_by_play_2022.parquet",
+   "bytes": 20426548,
+   "sha256": "931121d8897779d7944e2a293e92ed8799c8e5cceef84096ac42339003fedc09"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2022.parquet",
+   "path": "data/raw/roster_2022.parquet",
+   "bytes": 559611,
+   "sha256": "1d8e7987d2b07f510fdce9977354a960041064fdc4a51816cb51540f7835e193"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2023.parquet",
+   "path": "data/cache/play_by_play_2023.parquet",
+   "bytes": 20534088,
+   "sha256": "bd3484731408def6b0ec93225bba2bd7b2c65769ca707a2b9444d891abdc6776"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2023.parquet",
+   "path": "data/raw/roster_2023.parquet",
+   "bytes": 554634,
+   "sha256": "66dcb7d0e203c41b49e997b93eb55ed77bcc960e5dd0774b7e2426a87cef3c90"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.parquet",
+   "path": "data/cache/play_by_play_2024.parquet",
+   "bytes": 20597560,
+   "sha256": "3fd2896bc0b911b615142d2f1fabae54a4bbba5ab7b73b28187b118ef8af6a3b"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2024.parquet",
+   "path": "data/raw/roster_2024.parquet",
+   "bytes": 566179,
+   "sha256": "bd38dbe785728c6b4ddc0b56b7d4fee69a8337595db3b631528d284253c04aaf"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.parquet",
+   "path": "data/cache/play_by_play_2025.parquet",
+   "bytes": 20337029,
+   "sha256": "c6ecedd6d678cc37ed316b23ef84ee1ec6abb69c514bb11868a7ebd5a367df29"
+  },
+  {
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2025.parquet",
+   "path": "data/raw/roster_2025.parquet",
+   "bytes": 585103,
+   "sha256": "902904a0500f066f02ef23f7857e3db35060517e50ffcfe36cc1bc5c6d230f70"
+  }
+ ],
+ "release_timestamps": {
+  "officials": "2026-09-02 07:48:27 EDT",
+  "schedules": "2026-10-03 14:36:31 EDT",
+  "pbp": "2026-10-03 10:20:43 EDT",
+  "rosters": "2026-10-03 08:30:29 EDT"
+ },
+ "notes": "pbp files are cached under data/cache (not committed); penalties_2015_2025.parquet holds regular-season plays with penalty==1 and non-null penalty_team, columns game_id,old_game_id,season,season_type,week,play_id,play_type,posteam,defteam,home_team,away_team,penalty,penalty_team,penalty_player_id,penalty_player_name,penalty_yards,penalty_type,desc"
+}
