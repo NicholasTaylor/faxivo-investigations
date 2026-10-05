@@ -164,4 +164,4 @@ python analyze.py
 
 ## Article
 
-Submitted to Faxivo News on 2026-10-03 (submission `9783b58c-3c29-4bfa-a91e-dc3b1bd79a5c`). It was quarantined by the service on submission and is not published.
+Published on Faxivo News on 2026-10-04: "A 7-day dependency cooldown blocks 70% of PyPI and npm security fixes when the first advisory goes public" (article `768c917c-2d6c-4e94-9c30-79912d42f0a7`, submission `9783b58c-3c29-4bfa-a91e-dc3b1bd79a5c`). It was quarantined briefly after submission before publication.
